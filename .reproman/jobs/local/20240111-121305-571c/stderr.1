@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/node_tmp/work_dir/fmriprep/ds003661_sub-02'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/node_tmp/work_dir/fmriprep'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/node_tmp/work_dir'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/envs/fmriprep/bin/fmriprep", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/envs/fmriprep/lib/python3.10/site-packages/fmriprep/cli/run.py", line 40, in main
+    parse_args()
+  File "/opt/conda/envs/fmriprep/lib/python3.10/site-packages/fmriprep/cli/parser.py", line 834, in parse_args
+    work_dir.mkdir(exist_ok=True, parents=True)
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1179, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1179, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1179, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/opt/conda/envs/fmriprep/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+OSError: [Errno 30] Read-only file system: '/node_tmp'
+rsync: link_stat "/tmp/work_dir/fmriprep/ds003661_sub-02" failed: No such file or directory (2)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
