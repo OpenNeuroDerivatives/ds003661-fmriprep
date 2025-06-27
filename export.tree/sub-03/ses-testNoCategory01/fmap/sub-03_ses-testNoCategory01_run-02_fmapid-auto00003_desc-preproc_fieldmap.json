@@ -1,0 +1,15 @@
+{
+  "AnatomicalReference": "sub-03_ses-testNoCategory01_run-02_fmapid-auto00003_desc-magnitude_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-03_ses-testNoCategory01_run-02_fmapid-auto00003_desc-coeff0_fieldmap.nii.gz",
+    "sub-03_ses-testNoCategory01_run-02_fmapid-auto00003_desc-coeff1_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "auto_00003",
+  "IntendedFor": [
+    "ses-testNoCategory01/func/sub-03_ses-testNoCategory01_task-testNoCategory_run-02_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/scratch1/03201/jbwexler/openneuro_derivatives/derivatives/fmriprep/ds003661-fmriprep/sourcedata/raw/sub-03/ses-testNoCategory01/func/sub-03_ses-testNoCategory01_task-testNoCategory_run-02_bold.nii.gz"
+  ],
+  "Units": "Hz"
+}
